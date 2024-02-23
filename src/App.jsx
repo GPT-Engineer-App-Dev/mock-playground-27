@@ -7,8 +7,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Index />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
+
+import Footer from "./components/Footer.jsx";
 
 export default App;
